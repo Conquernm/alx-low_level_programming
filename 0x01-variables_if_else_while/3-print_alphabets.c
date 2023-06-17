@@ -1,9 +1,9 @@
 #include <stdio.h>
 /**
- * main - Entry point 
- *Descroption: 'Print alphabet in lower case and uppercase'
- *Return; Always 0
- */
+  *main - Entry point
+  *Descroption: 'Print alphabet in lower case and uppercase'
+  *Return: Always 0
+  */
 int main(void)
 {
 	int n = 97;
@@ -16,7 +16,7 @@ int main(void)
 	}
 	while (m <= 90)
 	{
-		putchar(n);
+		putchar(m);
 		m++;
 	}
 	putchar('\n');
