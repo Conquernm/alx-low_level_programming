@@ -2,14 +2,14 @@
 #include <time.h>
 #include <stdio.h>
 /**
- *main - Entry point
- *Description: 'get a last digit of a number'
- *Return: always 0
+ * main - Entry point
+ * Description: 'get the last digit of a number'
+ * Return: always 0
  */
 int main(void)
 {
 	int n;
-	int ld;
+	init ld;
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
@@ -17,7 +17,7 @@ int main(void)
 	if (ld > 5)
 	{
 		printf("Last digit of %d is %d and is greater than 5", n, ld);
-	}
+		}
 	else if (ld == 0)
 	{
 		printf("Last digit of %d is %d and is 0", n, ld);
@@ -25,6 +25,5 @@ int main(void)
 	else
 	{
 		printf("Last digit of %d is %d and is less than 6 and not 0", n, ld);
-	}
 	return (0);
 }
