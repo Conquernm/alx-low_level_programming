@@ -33,6 +33,5 @@ int main(void)
                 j = '0';
 		n++;
 	}
-}
 return (0);
 }
