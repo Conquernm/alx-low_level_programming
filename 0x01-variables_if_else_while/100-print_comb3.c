@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 /**
- *main - function to print combination of two numbers
- *
- * Return : 0 on success
+ *main - Entry point
+ *Description: 'Function to print combination of two numbers'
+ *Return: 0 on success
  */
 int main(void)
 {
