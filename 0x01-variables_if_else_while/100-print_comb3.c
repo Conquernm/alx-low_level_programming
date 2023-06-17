@@ -30,7 +30,7 @@ int main(void)
 			}
 			j++;
 		}
-                j = '0';
+		j = '0';
 		n++;
 	}
 return (0);
