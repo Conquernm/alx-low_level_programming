@@ -34,12 +34,12 @@ int main(void)
 				}
 				k++;
 			}	
-			j++
+			j++;
 		
 		}
 		k = '0';
 		j = '0';
-	       	n++
+	       	n++;
 	}
 			
 return (0);
