@@ -16,8 +16,8 @@ int main(void)
 		while (j <= '8')
 		{
 			while (k <= '9')
-			{		
-				if ((n < j) && (n < k) && (j < k) && ((j != n) != k))
+			{
+				if (((n < j) < k) && ((j != n) != k))
 				{
 					putchar(n);
 					putchar(j);
@@ -33,14 +33,12 @@ int main(void)
 					}
 				}
 				k++;
-			}	
+			}
+			k = '0';
 			j++;
-		
 		}
-		k = '0';
 		j = '0';
-	       	n++;
+		n++;
 	}
-			
-return (0);
+	return (0);
 }
