@@ -10,7 +10,7 @@ int main(void)
 	int n = '0';
 	int j = '0';
 
-	while (n <= '8')
+	while (n < '9')
 	{
 		while (j <= '9')
 		{
@@ -30,7 +30,7 @@ int main(void)
 			}
 			j++;
 		}
-		j = '1';
+		j = '0';
 		n++;
 	}
 return (0);
