@@ -9,7 +9,7 @@ int main(void)
 {
 	int n = 0, m;
 
-	while (n <= 99;)
+	while (n <= 99)
 	{
 		m = n;
 		while (m <= 99)
