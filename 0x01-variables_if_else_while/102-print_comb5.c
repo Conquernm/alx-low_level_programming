@@ -11,7 +11,7 @@ int main(void)
 
 	for (n = 0; m <= 99; i++)
 	{
-		for (m = 0; m <= 99 : m++)
+		for (m = 0; m <= 99;  m++)
 		{
 			if ((n < m && m != j)
 			{
