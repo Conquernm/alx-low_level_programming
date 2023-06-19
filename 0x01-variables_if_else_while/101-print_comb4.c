@@ -16,23 +16,23 @@ int main(void)
 		while (j <= '8')
 		{
 			if ((n < j) && (n != j))
-			{	
+			{
 				while (k <= '9')
-				{	
+				{
 					if ((j < k) && (j != k))
-					{	
-						putchar(n);
-						putchar(j);
-						putchar(k);
-						if (n == '7' && j == '8' && k == '9')
-						{
-							putchar('\n');
-						}
-						else
-						{
-							putchar(',');
-							putchar(' ');
-						}
+					{
+					putchar(n);
+					putchar(j);
+					putchar(k);
+					if (n == '7' && j == '8' && k == '9')
+					{
+						putchar('\n');
+					}
+					else
+					{
+						putchar(',');
+						putchar(' ');
+					}
 					}
 					k++;
 				}
