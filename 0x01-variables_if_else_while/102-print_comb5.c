@@ -2,31 +2,34 @@
 
 /**
  *main - Entry point
- *Description: 'Function to print combination of two numbers'
+ *Description: Write a programme thst prints all possible different combinations of two digits
  *Return: 0 on success
  */
 int main(void)
 {
-	int n, m;
+	int n = 0, m;
 
-	for (n = 0; m <= 99; i++)
+	while (n <= 99;)
 	{
-		for (m = 0; m <= 99;  m++)
+		m = n;
+		while (m <= 99)
 		{
-			if ((n < m && m != j)
+			if (m != n)
 			{
-				putchar((n / 10) + '0');
-				putchar((n % 10) + '0');
+				putchar((n / 10) + 48);
+				putchar((n % 10) + 48);
 				putchar(' ');
-				putchar((m / 10) + '0');
-				putchar((m % 10) + '0');
+				putchar((m / 10) + 48);
+				putchar((m % 10) + 48);
 				if (n != 98 || m != 99)
 				}
 					putchar(',')
 					putchar(' ');
 				}
 			}
+			m++;
 		}
+		n++;
 	}
 	putchar('\n');
 	return (0);
