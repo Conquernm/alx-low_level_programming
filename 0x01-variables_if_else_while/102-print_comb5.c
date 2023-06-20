@@ -1,9 +1,11 @@
 #include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
 
 /**
  *main - Entry point
  *Description: Write a programme thst prints all possible different combinations of two digits
- *Return: 0 on success
+ *Return: Always 0
  */
 int main(void)
 {
