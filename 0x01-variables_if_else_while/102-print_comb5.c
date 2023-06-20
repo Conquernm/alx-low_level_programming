@@ -4,11 +4,12 @@
 
 /**
  *main - Entry point
- *Description: Write a programme thst prints all possible different combinations of two digits
  *Return: Always 0
  */
+
 int main(void)
 {
+
 	int n, m;
 
 	for (n = 0; n <= 98; n++)
