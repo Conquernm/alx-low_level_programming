@@ -9,29 +9,23 @@
  */
 int main(void)
 {
-	int n = 0, m;
+	int n, m;
 
-	while (n <= 99)
+	for (n = 0; n <= 98; n++)
 	{
-		m = n;
-		while (m <= 99)
-		{
-			if (m != n)
-			{
-				putchar((n / 10) + 48);
-				putchar((n % 10) + 48);
-				putchar(' ');
-				putchar((m / 10) + 48);
-				putchar((m % 10) + 48);
-				if (n != 98 || m != 99)
-				}
-					putchar(',');
-					putchar(' ');
-				}
-			}
-			m++;
-		}
-		n++;
+	
+	for (m = n + 1; m <= 99; m++)
+	{
+	putchar((n / 10) + '0');
+	putchar((n % 10) + '0');
+	putchar(' ');
+	putchar((m / 10) + '0');
+	putchar((m % 10) + '0');
+	if (n == 98 && m == 99)
+	continue;
+	putchar(',');
+	putchar(' ');
+	}
 	}
 	putchar('\n');
 	return (0);
