@@ -2,8 +2,9 @@
 #include <stdio.h>
 
 /**
- * print_listint - prints all elements of a linked list
- * @h: head of the list node
+ * print_listint - prints all the  elements of a listint_t list
+ *
+ * @h: head of the link list node
  *
  * Return: the number of nodes
  *
