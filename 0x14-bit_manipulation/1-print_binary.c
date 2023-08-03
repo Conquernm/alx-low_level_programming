@@ -7,7 +7,6 @@ void print_binary(unsigned long int n)
 {
 	int m, count = 0;
 	unsigned long int current;
-	void _putchar();
 
 	for (m = 63; m >= 0; m--)
 	{
