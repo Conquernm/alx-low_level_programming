@@ -8,7 +8,7 @@
  */
 int create_file(const char *filename, char *text_content)
 {
-int file, result = 1, countm = 0;
+int file, result = 1, countn = 0;
 
 if (!filename)
 return (-1);
@@ -18,9 +18,9 @@ if (file == -1)
 return (-1);
 if (text_content)
 
-while (text_content[countm])
-countm++;
-result = write(file, text_content, countm);
+while (text_content[countn])
+countn++;
+result = write(file, text_content, countn);
 
 if (result == -1)
 return (-1);
